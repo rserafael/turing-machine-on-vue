@@ -1,0 +1,22 @@
+{
+  "name": "expressapp",
+  "version": "1.0.0",
+  "description": "This is just a sample of my capabilities as a developer",
+  "main": "app.js",
+  "engines": {
+    "node": "8.11.1"
+  },
+  "scripts": {
+    "test": "node app.js",
+    "start": "node app.js"
+  },
+  "author": "Rafael Santos",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "email-validator": "^2.0.4",
+    "express": "^4.16.4",
+    "multer": "^1.4.1",
+    "nodemailer": "^4.7.0"
+  }
+}
